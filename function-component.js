@@ -12,7 +12,7 @@ export default function Greeting(){
 
 //function component also be written as
 
-Greeting = () => {
+const Greeting = () => {
     return (
         <div>
             <h2>Hi, React</h2>
