@@ -19,7 +19,7 @@ class Parent extends React.Component{
 }
 
 //passing msg as a props to function component and we can get it as this.props.msg
-Child = (props) => {
+const Child = (props) => {
     return (
         <div>
             <h2>{this.props.msg}</h2>
