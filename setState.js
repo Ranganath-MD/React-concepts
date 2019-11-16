@@ -11,7 +11,7 @@ class SetState extends React.Component{
     state = {
         msg = ""
     }
-
+    //when you hit the button, this function gets called and sets the state with the msg
     sayHello = () => {
         this.setState({ msg : "Hello"})
     }
