@@ -54,5 +54,5 @@ what is componentWillRecieveProps()?
 
 what is getDerivedStateFromProps()?
     getDerivedStateFromProps() is invoked right before calling the render method and when it receives new props.
-    we cannot access "this" keyword inside the method so we have to store the props in the props in the state to compare the nextprops and prevState props
+    we cannot access "this" keyword inside the method so we have to store the props in the state to compare the nextprops and prevState props
 
